@@ -1,4 +1,4 @@
-#include <SoftwareSerial.h>   // 引用程式庫
+#include <src/SoftwareSerial/SoftwareSerial.h>   // 引用程式庫
 
 // 定義連接藍牙模組的序列埠
 SoftwareSerial BT(8, 9); // 接收腳, 傳送腳
@@ -9,8 +9,8 @@ void setup() {
   Serial.println("BT is ready!");
 
   // 設定藍牙模組的連線速率
-  // 如果是HC-05，請改成38400
-  BT.begin(9600);
+  // 如果是HC-06，請改成9600
+  BT.begin(38400);
 }
 
 void loop() {
