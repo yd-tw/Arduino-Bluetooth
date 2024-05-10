@@ -19,10 +19,13 @@
 
 ## 使用方法
 1. clone這個儲存庫
-2. 使用Arduino開啟並編譯上傳至開發版
-3. 依照配線圖(未提供)連接電路
-4. 至app/目錄安裝APK檔案至手機
-5. 配對藍牙裝置，並開啟應用程式即可使用
+2. 安裝依賴庫：
+    https://github.com/PaulStoffregen/SoftwareSerial
+    https://github.com/madsci1016/Arduino-PS2X
+3. 使用Arduino開啟並編譯上傳至開發版
+4. 依照配線圖(未提供)連接電路
+5. 至app/目錄安裝APK檔案至手機
+6. 配對藍牙裝置，並開啟應用程式即可使用
 
 ## 注意事項
 文件尚未編輯完畢，仍有部分資訊尚未添加完善。歡迎回報問題。
