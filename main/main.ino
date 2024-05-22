@@ -15,6 +15,7 @@ void setup() {
   // 設定藍牙模組的連線速率
   // 如果是HC-06，請改成9600
   BT.begin(9600);
+  BT.print("Bluetooth conneted");
 
   //配對接收器
   do {
